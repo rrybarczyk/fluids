@@ -1,14 +1,14 @@
+default: 
+    cargo watch --clear --exec test
+
 check: 
     cargo watch --clear --exec check
-
-test: 
-    cargo watch --clear --exec test
 
 build: 
 	cargo build --release
 
-run: 
-	cargo run --release
+log: 
+	cargo test -- --nocapture
 
 publish:
 	cargo build

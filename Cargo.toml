@@ -9,3 +9,4 @@ readme      = "README.md"
 edition     = "2018"
 
 [dependencies]
+gnuplot = "0.0.31"
