@@ -1,12 +1,6 @@
-[package]
-name        = "fluids"
-version     = "0.0.1"
-description = "A library to model various fluid flows"
-authors     = ["RJ Rybarczyk <rj@rybar.tech>"]
-license     = "CC0-1.0"
-homepage    = "https://github.com/rrybarczyk/fluids"
-readme      = "README.md"
-edition     = "2018"
+[workspace]
+members = [
+    "fluids",
+    "visualize",
+]
 
-[dependencies]
-gnuplot = "0.0.31"
