@@ -4,6 +4,9 @@ default:
 check: 
     cargo watch --clear --exec check
 
+run: 
+    cargo watch --clear --exec run
+
 build: 
 	cargo build --release
 

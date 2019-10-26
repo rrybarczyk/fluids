@@ -1,4 +1,4 @@
 mod common;
-mod vortex;
+pub mod vortex;
 
 use crate::common::*;
